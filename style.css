@@ -1,0 +1,46 @@
+        body {
+            background: #3ad8be;
+        }
+        
+        div {
+            background-image: url(join.jpg);
+            padding: 10px;
+            margin: 20px;
+        }
+        
+        form {
+            border: #2980b9 solid 8px;
+            padding: 10px;
+            font-size: 20px;
+            margin: 20px;
+        }
+        
+        input[type="text"] {
+            width: 200px;
+            height: 30px;
+            background: yellow;
+        }
+        
+        input[type="email"] {
+            width: 200px;
+            height: 30px;
+            background: yellow;
+        }
+        
+        input[type=submit] {
+            background-color: #2980b9;
+            width: 110px;
+            height: 30px;
+            font-size: 20px;
+        }
+        
+        input[type=reset] {
+            background-color: #2980b9;
+            width: 110px;
+            height: 30px;
+            font-size: 20px;
+        }
+        
+        input[type=submit]:active {
+            background: #a12506;
+        }
